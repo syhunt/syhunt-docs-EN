@@ -1,7 +1,5 @@
 # Welcome to Syhunt
 
-![](../images/icon_samurai.webp)
-
 Thank you for choosing Syhunt. Our goal is to help you get the most out of the Syhunt tools so your organization can reach stronger application security and compliance faster, by finding and fixing vulnerabilities and weaknesses before they reach production.
 
 Start with the four steps below, then read the rest of this guide.
