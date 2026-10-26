@@ -70,9 +70,3 @@ New to Syhunt? Start with the [Welcome Guide](getting-started/welcome-guide.md),
 | Document | Description |
 |---|---|
 | [Reporting Bugs and Getting Support](support/reporting-bugs.md) | False positives, debug logs and support tickets. |
-
-## About this repository
-
-- Each page notes the product version it applies to.
-- Images live in [`images/`](images/). See [images/README.md](images/README.md) for the list of files and their original sources.
-- Links to pages outside this documentation point to [syhunt.com](https://www.syhunt.com/).
