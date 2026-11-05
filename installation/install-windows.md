@@ -114,7 +114,6 @@ The machine running Syhunt must be able to make HTTP(S) requests to the followin
 | `syhunt.fra1.cdn.digitaloceanspaces.com` | 443 | Required: installation and auto-update assets. |
 | `www.syhunt.net` | 80, 443 | Required: assets for HTML/PDF reports, update notifications, auto-update and more. |
 | `signal.syhunt.net` | 80, 443 | Required during DAST to perform OAST (important). |
-| `api.openai.com` | 443 | Optional: AI-powered features. |
 | `fonts.googleapis.com` | 80, 443 | Required: fonts for HTML/PDF reports. |
 | `www.google.com` | 443 | Required: Google JSAPI for HTML/PDF reports. |
 | `www.gstatic.com` | 443 | Required: Google JSAPI for HTML/PDF reports. |
