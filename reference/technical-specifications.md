@@ -684,8 +684,8 @@ Syhunt Hybrid runs on 64-bit Windows, macOS (Apple Silicon) and Linux, and can a
 
 | Status | Distribution |
 |---|---|
-| ✅ Officially supported | Ubuntu Server/Desktop 18.10 and later<br>Debian 9 and later<br>Kali Linux 2024.3 and later |
-| ✅ Unofficially supported (successfully tested) | Fedora 32 and later<br>CentOS 7.7 and later (Minimal or Everything)<br>Kali Linux 2019 and later<br>Parrot OS 4.1, 4.7 and later<br>Linux Mint 19.2 and later<br>openSUSE Leap 15.1 and later<br>MX Linux 19.1 and later<br>KDE neon 2020.03 and later<br>Deepin 15.9<br>Manjaro 19<br>Arch Linux 2019 and later |
+| ✅ Officially supported | Ubuntu Server/Desktop 22.04 and later<br>Debian 12 and later<br>Kali Linux 2024.3 and later |
+| ✅ Not officially supported, though it has worked in the past | Fedora 32 and later<br>CentOS 7.7 and later (Minimal or Everything)<br>Kali Linux 2019 and later<br>Parrot OS 4.1, 4.7 and later<br>Linux Mint 19.2 and later<br>openSUSE Leap 15.1 and later<br>MX Linux 19.1 and later<br>KDE neon 2020.03 and later<br>Deepin 15.9<br>Manjaro 19<br>Arch Linux 2019 and later |
 | ❌ Unsupported | elementary OS 5.1 (successfully tested) and 5.0<br>CentOS 6.1 (successfully tested)<br>Solus 4.1 (unstable) |
 
 Installation steps for each distribution are in the [Linux installation guide](../installation/install-linux.md).
