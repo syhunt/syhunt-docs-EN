@@ -1,6 +1,6 @@
 # Technical Specifications
 
-> **Applies to:** Syhunt Hybrid 7.2
+> **Applies to:** Syhunt Hybrid 7.2.1
 
 **Contents**
 
@@ -28,7 +28,6 @@ This document describes the technical specifications of **Syhunt Hybrid**, a hig
 - Licenses include version updates and technical support, as well as technical documentation in English.
 - Licenses allow an unlimited number of scans against an unlimited number of assets per year, launched from a single device (or more, if additional seats are ordered). Each license includes two Web UI users, an administrator and one other user; more can be purchased.
 - Some licenses cover every supported programming language; others cover at least one. More languages can be purchased as needed.
-- Licenses allow integration with AI through a configurable API endpoint. Syhunt currently supports OpenAI, DeepSeek and local models. Costs and hardware needed to run a local or cloud model are not covered by Syhunt licenses.
 
 <a id="Architecture"></a>
 
@@ -180,8 +179,6 @@ Capabilities:
 - Detects **shadow AI**, including use of DeepSeek, OpenAI, OpenAI-compatible and other emerging AI API endpoints.
 - Analyzes configuration files to assess threats and identify countermeasures at the server, environment or application configuration level.
 - Recognizes input filtering and validation, for accurate results free of false positives.
-- *AI-powered:* adds fixed-code examples to reports, next to each vulnerable piece of code.
-- *AI-powered:* adds a confidence score to each finding in reports, the estimated likelihood (as a percentage) that it is a true positive rather than a false positive.
 
 ### Real-time scan view
 
@@ -668,14 +665,14 @@ Syhunt Hybrid runs on 64-bit Windows, macOS (Apple Silicon) and Linux, and can a
 
 | Requirement | Details |
 |---|---|
+| **CPU:** | **CPU:** Minimum 4 logical processors (vCPUs/threads), 8 or more recommended. Intel/AMD x86-64 architecture required for native execution. ARM64 is also supported on Windows 11 through Microsoft's Prism x86/x64 emulation, but is not currently supported on Linux. |
 | **Memory** | 4 GB of available RAM (8 GB recommended)¹ |
 | **Disk** | 2 GB of free disk space² |
 | **Internet connection** | Recommended for code and dynamic scans, and required by some features (see [Internet connection requirements](../installation/install-windows.md#sysreq_net)) |
-| **Operating system** (64-bit) | Windows 10 or 11, or Windows Server 2016 to 2025 (x64 or ARM64)<br>macOS Sequoia 15.4.1 or later (Apple Silicon)<br>Linux: Kali 2024.3 or later, Ubuntu Server/Desktop 18 or later, Debian 9 or later<br>Unofficially supported systems³, such as the Linux distributions listed below |
+| **Operating system** (64-bit) | Windows 11, or Windows Server 2019/2022/2025 (x64 or ARM64)<br>macOS Sequoia 15.4.1 or later (Apple Silicon)<br>Linux: Kali 2024.3 or later, Ubuntu Server/Desktop 18 or later, Debian 9 or later<br>Unofficially supported systems³, such as the Linux distributions listed below |
 | **Git** | Optional, for Git repository scans: Git on Linux/macOS, Git for Windows on Windows |
 | **Java** | Java or Java Headless, on Linux and macOS |
 | **Wine** | Wine64 Stable, where native binaries aren't yet available for your OS or distribution |
-| **AI** | Optional, for AI-powered features: an OpenAI or DeepSeek API key, or a local AI model |
 
 ¹ Not including additional RAM that may be needed for concurrent scans.<br>
 ² Not including space for scan session data, which depends on the website or code analyzed and how often you scan.<br>
@@ -702,7 +699,6 @@ Installation steps for each distribution are in the [Linux installation guide](.
 | Term | Definition |
 |---|---|
 | **Active attacks** | Security analysis that performs attacks such as brute force, injection and denial of service. |
-| **AI-powered** | A feature, or feature extension, powered by artificial intelligence. Available only when an integration with a supported AI system (OpenAI, DeepSeek or a local model) is configured. |
 | **Asset** | A URL, source code file or repository that can be analyzed. |
 | **Augmented dynamic analysis** | The combination of DAST and OAST. |
 | **DAST** | Dynamic Application Security Testing: the tool interacts with a running web application to find vulnerabilities and weaknesses. Also known as black-box testing. |
