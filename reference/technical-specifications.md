@@ -669,7 +669,7 @@ Syhunt Hybrid runs on 64-bit Windows, macOS (Apple Silicon) and Linux, and can a
 | **Memory** | 4 GB of available RAM (8 GB recommended)¹ |
 | **Disk** | 2 GB of free disk space² |
 | **Internet connection** | Recommended for code and dynamic scans, and required by some features (see [Internet connection requirements](../installation/install-windows.md#sysreq_net)) |
-| **Operating system** (64-bit) | Windows 11, or Windows Server 2019/2022/2025 (x64 or ARM64)<br>macOS Sequoia 15.4.1 or later (Apple Silicon)<br>Linux: Kali 2024.3 or later, Ubuntu Server/Desktop 18 or later, Debian 9 or later<br>Unofficially supported systems³, such as the Linux distributions listed below |
+| **Operating system** (64-bit) | Windows 11, or Windows Server 2019/2022/2025 (x64 or ARM64)<br>macOS Sequoia 15.4.1 or later (Apple Silicon)<br>Linux: Ubuntu Server/Desktop 22.04 LTS or later, Debian 12 or later, Kali 2024.3 or later<br>Unofficially supported systems³, such as the Linux distributions listed below |
 | **Git** | Optional, for Git repository scans: Git on Linux/macOS, Git for Windows on Windows |
 | **Java** | Java or Java Headless, on Linux and macOS |
 | **Wine** | Wine64 Stable, where native binaries aren't yet available for your OS or distribution |
